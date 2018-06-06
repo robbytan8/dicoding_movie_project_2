@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="logo_desc">Poster Film</string>
+    <string name="action_search">Cari</string>
+    <string name="action_change_language">Pengaturan Bahasa</string>
+    <string name="text_title">Judul Film</string>
+    <string name="popular">Populer</string>
+    <string name="now_playing">Sedang Tayang</string>
+    <string name="upcoming">Akan Tayang</string>
+    <string name="parcel_movie" translatable="false">PCL_MOV</string>
+    <string name="serial_movie" translatable="false">SRL_MOV</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="logo_desc">Movie Poster</string>
+    <string name="action_search">Search</string>
+    <string name="action_change_language">Language Setting</string>
+    <string name="text_title">Movie Title</string>
+    <string name="popular">Popular</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="parcel_movie" translatable="false">PCL_MOV</string>
+    <string name="serial_movie" translatable="false">SRL_MOV</string>
+</resources>
