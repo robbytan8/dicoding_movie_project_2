@@ -14,19 +14,6 @@ public class TmdbUtil {
     private static final String UPCOMING_URL = "https://api.themoviedb.org/3/movie/upcoming";
     private static final String SEARCH_URL = "https://api.themoviedb.org/3/search/movie";
 
-    public static String getSearchMoviesUrl(String movieTitle) {
-        if (movieTitle == null || movieTitle.isEmpty()) {
-            return POPULAR_MOVIES_URL + API_KEY;
-        }
-        StringBuilder builder = new StringBuilder("");
-        for (String query : movieTitle.split(" ")) {
-            builder.append(query).append("+");
-        }
-        builder.deleteCharAt(builder.length() - 1);
-        return "https://api.themoviedb.org/3/search/movie?api_key=" + BuildConfig.TMDB_KEY
-                + "&query=" + builder.toString();
-    }
-
     public static String getMovieUrl(MovieEnum movieEnum, String movieTitle) {
         switch (movieEnum) {
             case NOW_PLAYING:

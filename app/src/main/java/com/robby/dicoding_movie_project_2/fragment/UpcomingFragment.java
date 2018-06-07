@@ -39,8 +39,7 @@ public class UpcomingFragment extends MovieFragment {
                             JSONObject jsonObject = new JSONObject(response);
                             JSONArray jsonArray = jsonObject.getJSONArray("results");
                             Gson gson = new Gson();
-                            ArrayList<Movie> movies = new ArrayList<>();
-                            movies.addAll(Arrays.asList(gson.fromJson(jsonArray.toString(), Movie[].class)));
+                            ArrayList<Movie> movies = new ArrayList<>(Arrays.asList(gson.fromJson(jsonArray.toString(), Movie[].class)));
                             getMovieAdapter().setMovies(movies);
                             pbMovies.setVisibility(View.INVISIBLE);
                         } catch (JSONException e) {

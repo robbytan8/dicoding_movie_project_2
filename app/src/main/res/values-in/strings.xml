@@ -8,6 +8,4 @@
     <string name="popular">Populer</string>
     <string name="now_playing">Sedang Tayang</string>
     <string name="upcoming">Akan Tayang</string>
-    <string name="parcel_movie" translatable="false">PCL_MOV</string>
-    <string name="serial_movie" translatable="false">SRL_MOV</string>
 </resources>
